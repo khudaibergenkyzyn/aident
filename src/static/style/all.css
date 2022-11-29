@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('vendor/reset.css');
+@import url('vendor/same.css');
+@import url('components/header.css');
+@import url('pages/signup.css');
+@import url('pages/signin.css');
+@import url('components/list-patients.css');
+@import url('components/list-header.css');
+@import url('components/createCaseModal.css');
+@import url('components/antTabs.css');
+@import url('components/trgDetail.css');
+@import url('pages/trgDownload.css');
+@import url('components/info-form.css');
+@import url('components/calibrationInfo.css');
+@import url('components/canvas.css');
+@import url('pages/calibration.css');
+@import url('pages/digitization.css');
+@import url('components/main-header.css');
+@import url('components/mainHome.css');
+@import url('components/information.css');
+@import url('components/message.css');
+/* @import url('check.css'); */

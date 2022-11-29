@@ -1,0 +1,42 @@
+.message-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+@keyframes animation {
+    0%{
+       visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+.message-info{
+    padding: 70px 60px;
+    background: linear-gradient(0.07deg, rgba(3, 6, 13, 0.5) 35.24%, rgba(38, 55, 82, 0) 290.72%);
+    border: 1px solid #51A7CA;
+    border-radius: 20px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.message-info svg{
+    color: #5BBDE4;
+    font-size: 35px;
+}
+.message-info p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}

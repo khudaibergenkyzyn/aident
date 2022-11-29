@@ -1,0 +1,30 @@
+.info .ant-pagination {
+    display: none;
+}
+.info .ant-table-thead > tr > th{
+    background-color: #141D2C;
+    border: 1px solid #263041;
+    color: #fff;
+}
+.info .ant-table-tbody > tr > td{
+    background-color: #141D2C;
+    border: 1px solid #263041;
+    color: #fff;
+}
+.info .ant-table-cell-row-hover{
+    background-color: #141D2C !important;
+    border: 1px solid #263041 !important;
+    color: #fff;
+}
+.info .ant-table-body{
+    max-height: 55vh !important;
+}
+.rpv-default-layout__sidebar{
+    display: none !important;
+}
+.rpv-toolbar{
+    display: none !important;
+}
+.rpv-core__page-layer{
+    margin: 0 auto;
+}

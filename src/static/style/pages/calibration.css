@@ -1,0 +1,75 @@
+.getPoint{
+    display: flex;
+    justify-content: space-between;
+    background-color: #334157;
+    width: 401px;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.getPoint p{
+    color: #8695AC;
+}
+.task{
+    margin-top: 30px;
+}
+.calibration-info>.ant-input-group.ant-input-group-compact{
+    display: flex;
+    width: 401px;
+    margin-top: 30px;
+}
+.calibration-info>.ant-input-group.ant-input-group-compact button{
+    background-color: #3BDFCF;
+    border: 1px solid #3BDFCF;
+    color: #000;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 9px 15px;
+    height: 100%;
+}
+.calibration-info .ant-input-group.ant-input-group-compact input{
+    background-color: #334157;
+    border: 1px solid #334157;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 9px 15px;
+    color: #fff;
+    text-align: left;
+}
+.calibration-info .ant-input-group.ant-input-group-compact input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: #8F95A1;
+}
+.getPointDone{
+    background: linear-gradient(to right, rgb(45 , 73 , 79), transparent);
+}
+.getPoint span{
+    color: #75809C;
+    font-size: 22px;
+}
+.getPointDone span svg{
+    background-color: #79C0A8;
+    color: #fff;
+}
+.calibration-info .next-btn{
+    background-color: #3BDFCF;
+    border: 1px solid #3BDFCF;
+    color: #000;
+    border-radius: 10px;
+    padding: 9px 15px;
+    height: 10%;
+    float: left;
+    margin-top: 30px;
+    width: 401px;
+}
+.calibration-info>.ant-input-group button:hover{
+    background-color: #3BDFCF;
+    border: 1px solid #3BDFCF;
+    color: #000;
+}
+.calibration-info>.ant-input-group .ant-btn-primary:focus{
+    background-color: #3BDFCF;
+    border: 1px solid #3BDFCF;
+    color: #000;
+}

@@ -1,0 +1,12 @@
+.signin-form .row{
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.signin-form p{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+.signin-form a:hover{
+    color: #0a58ca;
+}

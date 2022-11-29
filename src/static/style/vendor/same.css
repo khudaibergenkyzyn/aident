@@ -1,0 +1,90 @@
+.App{
+    min-height: 100vh;
+}
+.row{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+/* .section-padding{
+    padding: 120px 80px;
+} */
+.container{
+    padding: 30px 80px;
+}
+.padding{
+    padding: 50px 90px;
+}
+.button{
+    background-color: #3BDFCF !important;
+    color: #000 !important;
+    border: 1px solid #3BDFCF !important;
+    border-radius: 10px !important;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 63px);
+}
+.form .ant-form-item{
+    margin-bottom: 7px !important;
+}
+.ant-input-affix-wrapper{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form p a{
+    color: #3BDFCF;
+    font-weight: 500;
+}
+.form p{
+    width: 407px;
+}
+.form button{
+    width: 407px !important;
+}
+.form p a:hover{
+    color: #3BDFCF;
+}
+.form .ant-checkbox-wrapper.ant-checkbox-wrapper-in-form-item a{
+    color: #4CBFFF;
+}
+.form .ant-input-affix-wrapper-status-error{
+    border: 1px solid #ED5F68 !important;
+}
+.form .ant-input-group .ant-input-affix-wrapper:not(:last-child){
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+.form .ant-input-affix-wrapper-status-error span img{
+    filter: invert(51%) sepia(33%) saturate(2984%) hue-rotate(320deg) brightness(96%) contrast(92%);
+}
+.form .ant-input-affix-wrapper-status-error span svg{
+    color: #ED5F68;
+}
+.form .ant-form-item-explain-error{
+    color: #ED5F68;
+}
+#same-select-option{
+    background-color: #141D2C;
+    color: #fff;
+}
+.ant-select-dropdown:has(#same-select-option){
+    background-color: #141D2C;
+}
+.ant-select-item-option-selected.same-select-option{
+    background-color: #0A111D !important;
+}
+.ant-select-item-option-active:not(.ant-select-item-option-disabled){
+    background-color: #0A111D !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,129 @@
+.trg-detail .ant-steps-item-icon{
+    display: none;
+}
+.trg-detail .ant-steps-item-title{
+    /* border: 10px solid skyblue; */
+    /* border-radius: 50px; */
+    /* border-image: linear-gradient(to right , #85F2D9 0% , #5BBDE4 100%); */
+    /* border-image: linear-gradient(to right top, blue, skyblue, blue); */
+    /* background-color: #1C2F3E; */
+    /* border-image: linear-gradient(to right, darkblue, darkorchid) 0.5; */
+    /* border-width: 4px; */
+    /* border-style: solid; */
+    background-color: #1C2F3E;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    padding: 3px 20px !important;
+    color: #fff !important;
+    display: flex;
+    gap: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.trg-detail .ant-steps-item-active .ant-steps-item-title{
+    background: linear-gradient(#1C2F3E, #1C2F3E) padding-box,
+    linear-gradient(to right, #5BBDE4, #85F2D9) border-box;
+}
+.trg-detail .ant-steps-item-subtitle{
+    display: flex;
+    align-items: center;
+}
+.trg-detail .ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item{
+    padding-left: 0;
+}
+.trg-detail .ant-steps-item-process::after{
+    display: none;
+}
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: red !important;
+}
+.custome-step .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after {
+    background-color: red !important;
+}
+.steps-content {
+    min-height: 70vh;
+    text-align: center;
+    border-radius: 2px;
+}
+.steps-action {
+    margin-top: 24px;
+}
+/* .trg-detail .ant-steps-item-active .ant-steps-item-subtitle{
+    filter: invert(58%) sepia(81%) saturate(327%) hue-rotate(107deg) brightness(91%) contrast(84%);
+} */
+.trg-detail .ant-steps-item-title::after{
+    width: 30px;
+    top: 50%;
+}
+.trg-detail .ant-steps-item-active  .ant-steps-item-title::after{
+    background-color: #85F2D9 !important;
+}
+.ant-steps-item-finish .ant-steps-item-title::after{
+    background-color: #8F95A1 !important;
+}
+.trg-detail .ant-steps-item-content{
+    padding-right: 30px;
+}
+.trg-detail .ant-steps-item{
+    flex: inherit;
+}
+.trg-detail .ant-steps{
+    padding: 16px 16px;
+    width: 65%;
+}
+.trg-detail .trg-detail .ant-steps-item-title{
+    border: 2px solid red;
+}
+.case-name{
+    font-size: 12px;
+    color: #687490;
+}
+.detail-patient-info p:nth-child(2){
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.detail-patient-info p:nth-child(4){
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.detail-header{
+    display: flex;
+}
+.detail-patient-info{
+    padding: 10px 15px;
+    border-left: 1px solid #353F4F;
+    border-right: 1px solid #353F4F;
+    width: 23%;
+}
+.parient-age-gender{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 30px;
+}
+.parient-age-gender span{
+    color: #fff;
+    font-size: 14px;
+}
+.steps-content embed{
+    height: 70vh;
+    width: 30%;
+}
+.info{
+    color: #fff;
+    font-size: 14px;
+}
+.trg-detail .payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+}
+.trg-detail .payment-button{
+    padding: 12px 15px;
+    border-radius: 50px !important;
+    font-weight: 600;
+}

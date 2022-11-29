@@ -1,0 +1,162 @@
+.list-patients{
+    padding: 0 80px;
+}
+.list-patients tr{
+    /* background-color: transparent; */
+    
+    border: 1px solid #2A3649;
+}
+.list-patients thead{
+    background-color: #1F2838;
+}
+.list-patients thead th{
+    background-color: #0B1016 !important;
+    color: #8F95A1;
+    border-bottom: 1px solid #5BBDE4;
+    border-top: 1px solid #5BBDE4;
+}
+.list-patients thead th:first-child{
+    border-left: 1px solid #5BBDE4;
+}
+.list-patients thead th:last-child{
+    border-right: 1px solid #5BBDE4;
+}
+.list-patients tr td{
+    border-bottom: 1px solid #2a364958;
+}
+.list-patients .ant-table-tbody > tr.ant-table-row:hover > td{
+    background-color: #1B2330;
+}
+.list-patients tr td a , .list-patients tr td{
+    color: #FDFFFF;
+}
+.list-patients .ant-table-thead th.ant-table-column-sort {
+    background-color: #1F2838;
+}
+.list-patients td.ant-table-column-sort{
+    background-color: #1B2330;
+}
+.list-patients .ant-checkbox-inner{
+    background-color: #151C27;
+    border: 1px solid #2A3649;
+}
+.list-patients tr:last-child td{
+    border-bottom: 1px solid #5BBDE4 !important;
+}
+.list-patients tr td:first-child{
+    border-left: 1px solid #5BBDE4;
+}
+.list-patients tr td:last-child{
+    border-right: 1px solid #5BBDE4;
+}
+
+.list-patients .ant-table-tbody{
+    /* background-color: #192230; */
+    background: linear-gradient(1.21deg, rgba(3, 6, 13, 0.5) 4.95%, rgba(3, 7, 14, 0.489583) 52.19%, rgba(29, 42, 63, 0.135384) 158.95%, rgba(38, 55, 82, 0) 246.08%) !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.list-patients .ant-table{
+    background: transparent;
+}
+.list-patients .ant-table-column-title , .list-patients .ant-table-cell{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.list-patients .ant-table-cell.ant-table-selection-column{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.list-patients .ant-pagination-item-link{
+    background-color: #1E2838 !important;
+    border: none !important;
+    color: #46546A;
+    border-radius: 6px;
+}
+.list-patients .ant-pagination-item-active{
+    background-color: #334157;
+    border: 1px solid #5BBDE4 !important;
+}
+.list-patients .ant-pagination-item{
+    background-color: #334157;
+    border: 1px solid #334157;
+    border-radius: 6px !important;
+}
+.list-patients .ant-pagination-item a{
+    color: #4D5E79;
+}
+.list-patients .ant-pagination-item-active a{
+    color: #fff;
+}
+.list-patients table{
+    background-color: #192230;
+}
+.list-patients .ant-table-tbody > tr > td.ant-table-cell-row-hover{
+    background: none !important;
+}
+.list-patients .anticon-more.ant-dropdown-trigger svg{
+    font-size: 24px;
+    color: #dadada;
+}
+.list-patients .ant-pagination .anticon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #78E9C2;
+    background-color: #1E2838;
+    border-radius: 6px;
+}
+.list-patients .ant-pagination-disabled .anticon{
+    color: #46546A !important;
+}
+.list-patients .ant-dropdown-open{
+    background-color: #425168;
+    border-radius: 3px;
+}
+.ant-dropdown-menu .ant-dropdown-menu-item{
+    padding: 10px 15px;
+}
+.list-drop .ant-dropdown-menu .ant-dropdown-menu-item span img{
+    margin-right: 7px;
+}
+.list-drop .ant-dropdown-menu .ant-dropdown-menu-item {
+    background: #333F52;
+}
+.list-drop{
+    background: #333F52;
+    border-radius: 5px;
+}
+.list-patients .anticon-caret-up{
+    display: none;
+}
+.list-patients .ant-table-cell{
+    text-align: left;
+    font-weight: 400;
+}
+.list-patients .ant-table-container table > thead > tr:first-child th:first-child{
+    border-top-left-radius: 10px;
+}
+.list-patients .ant-table-container table > thead > tr:first-child th:last-child{
+    border-top-right-radius: 10px;
+}
+.list-patients .ant-table-container table > tbody > tr:last-child td:first-child{
+    border-bottom-left-radius: 10px;
+}
+.list-patients .ant-table-container table > tbody > tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+}
+.list-patients .ant-table-tbody > tr > td , .ant-table-thead > tr > th{
+    padding: 7px 16px !important;
+}
+.list-patients .ant-table-tbody > tr > td:nth-child(3){
+    padding: 5px 10px !important;
+}
+.list-patients .ant-table-thead > tr > th:nth-child(3){
+    padding: 5px 10px !important;
+}
+.case-status div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

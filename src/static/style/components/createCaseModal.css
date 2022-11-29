@@ -1,0 +1,95 @@
+.ant-modal-content{
+    /* background: linear-gradient(0.07deg, rgba(3, 6, 13, 0.5) 35.24%, rgba(38, 55, 82, 0) 290.72%) !important; */
+    background: linear-gradient( to bottom , #26375200 0% , #03060dc2 100% );
+    background-color: 1E2838;
+    border: 1px solid #51A7CA;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.ant-modal{
+    background-color: #1E2838;
+    border-radius: 20px;
+    padding-bottom: 0;
+}
+.ant-modal-body{
+    padding: 50px 105px 20px;
+}
+.ant-modal-footer{
+    border: none;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 30px;
+}
+.ant-modal-footer button{
+    background-color: #141D2C;
+    border: 2px solid #141D2C;
+    /* border: none; */
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 60px;
+    height: 100%;
+}
+.ant-modal-content{
+    border-radius: 20px;
+}
+.ant-modal-body{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+.ant-modal-content .ant-modal-close-x{
+    color: #4F5F77;
+}
+.ant-modal-content .ant-modal-close-x svg{
+    font-size: 20px;
+}
+.ant-modal{
+    width: 724px !important;
+}
+.ant-modal-close{
+    top: 5px;
+    right: 5px;
+}
+.ant-modal-body h2{
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.case-type-btn{
+    width: calc(50% - 20px);
+}
+.case-type-btn button{
+    width: 100%;
+    height: 206px;
+    border-radius: 20px;
+    background-color: #141D2C;
+    border: 1px solid #4F5F77;
+    color: #fff;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.case-type-btn p{
+    color: #6C7B94;
+    font-size: 14px;
+    font-weight: 400;
+}
+.case-type-btn button:hover{
+    background-color: #091323;
+    cursor: pointer;
+    border: 2px solid #51A7CA;
+    transition: .3s;
+}
+.ant-modal-footer button:hover{
+    background-color: #141D2C;
+    border: 2px solid #51A7CA !important;
+    color: #fff;
+    transition: .3s;
+}
+.ant-modal-body p{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}

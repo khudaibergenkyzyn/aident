@@ -1,0 +1,37 @@
+.calibration-info{
+    width: 50%;
+    background: linear-gradient(to bottom , #000 0% , #0A1425A8 100%);
+    padding: 50px 90px;
+}
+.calibration-info h2{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    letter-spacing: 0.6px;
+    text-align: left;
+}
+.calibr-btns{
+    display: flex;
+    justify-content: left;
+    gap: 12px;
+}
+.calibr-btns button{
+    background-color: #364866;
+    border: 2px solid #364866;
+    border-radius: 10px;
+    padding: 7px 20px;
+    height: 100%;
+}
+.calibr-btns button:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calibr-btns button:hover{
+    background-color: #364866;
+    border: 2px solid #5BBDE4;
+    border-radius: 10px;
+    padding: 7px 20px;
+    height: 100%;
+}

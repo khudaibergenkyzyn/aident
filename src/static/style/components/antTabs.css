@@ -1,0 +1,81 @@
+.card-container p {
+  margin: 0;
+}
+.card-container > .ant-tabs-card .ant-tabs-content {
+  height: 120px;
+  margin-top: -16px;
+}
+.card-container > .ant-tabs-card .ant-tabs-content > .ant-tabs-tabpane {
+  background: #1D2736;
+  border-bottom:1px solid #51A7CA;
+  border-left:1px solid #51A7CA;
+  border-right:1px solid #51A7CA;
+  min-height: 60vh;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card-container>.ant-tabs-card > .ant-tabs-nav::before {
+  display: none;
+}
+.card-container>.ant-tabs-card .ant-tabs-tab,
+[data-theme='compact'] .card-container > .ant-tabs-card .ant-tabs-tab {
+  background: linear-gradient(180deg, #000000 -64.13%, #1D2736 108.7%) !important;
+  border-color: transparent;
+  border-radius: 8px 8px 0px 0px !important;
+  margin-right: 10px;
+  padding: 11px 70px;
+}
+.card-container > .ant-tabs-card .ant-tabs-tab-activ {
+  background: linear-gradient(to bottom , #000000 0% , #19223000 100%);
+  border-color: #51A7CA;
+  border-bottom: none;
+}
+#components-tabs-demo-card-top .code-box-demo {
+  padding: 24px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+[data-theme='compact'] .card-container > .ant-tabs-card .ant-tabs-content {
+  margin-top: -8px;
+  min-height: 80vh;
+}
+[data-theme='dark'] .card-container > .ant-tabs-card .ant-tabs-tab {
+  background: #192230 !important;
+  border-color: transparent;
+}
+[data-theme='dark'] #components-tabs-demo-card-top .code-box-demo {
+  background: #000;
+}
+[data-theme='dark'] .card-container > .ant-tabs-card .ant-tabs-content > .ant-tabs-tabpane {
+  background: #141414;
+  border-radius: 10px
+}
+[data-theme='dark'] .card-container > .ant-tabs-card .ant-tabs-tab-active {
+  background: #141414;
+  border-color: #141414;
+}
+.ant-tabs-tab-btn{
+  color: #4D5B72 ;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: #fff;
+}
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active, .ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active{
+  border-bottom: none;
+  border-top: 1px solid #5BBDE4;
+  border-left: 1px solid #5BBDE4;
+  border-right: 1px solid #5BBDE4;;
+}
+.card-container > .ant-tabs-card .ant-tabs-content > .ant-tabs-tabpane:before {
+  content : "";
+  position: absolute;
+  right: 5px;
+  top  : 0;
+  left: 168px;
+  height  : 1px;
+  border-bottom:1px solid #5BBDE4;
+}
+/* .card-container .ant-tabs-tab{
+  border-bottom: 1px solid #5BBDE4 !important;
+} */
